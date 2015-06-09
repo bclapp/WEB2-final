@@ -1,10 +1,77 @@
 /********************
 YOUR STYLES
 *******************/
+.center {
+	margin: 0px auto;
+	position: relative;
+	max-width: 1400px;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+.main-header {
+	background-color: orange;
+	padding-top: 2em;
+}
+
+#home{
+	background-color: lightblue;
+	margin: 10px;
+	font-family: "Open Sans",Arial,sans-serif;
+}
 
 
 
+#main {
+	margin: 0px;
+	border: 0px none;
+	padding: 0px;
+}
 
+#main-nav {
+	float: right;
+	display: inline-block;
+	
+}
+
+.logo {
+	margin-top: 2em;
+	padding-left: 50px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	text-align: center;
+}
+
+ul {
+	padding-right: 15px;
+	padding-left: 0px;
+	margin-left: 36px;
+}
+ul li{
+	overflow: hidden;
+	list-style-type: none;
+}
+
+#selected {
+	border-bottom-width: 3px; 
+	border-bottom-style: solid;
+}
+
+#main-nav ul li {
+
+    position: relative;
+
+    max-width: 1000px;
+    opacity: 1;
+    text-align: center;
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: lightblue;
+}
 /********************
 MEDIA QUERIES
 *******************/
